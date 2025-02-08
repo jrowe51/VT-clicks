@@ -11,7 +11,8 @@ Easy instructions for mac can be found at [Sam Wilson's TILs] (https://til.simon
 
 ## Step 3.
 Once you have the necessary software, the python script can be run on your local computer. 
-After downloading the vtinstabot.py3 file, make sure to put in your username and password.
+Download the vtinstabot.py file and make sure to put in your username and password.
+Run the script from terminal or command line (for mac, this looks like `python3 vtinstabot.py`)
 
 ## Step 4.
 When running the automation, please make sure that you are still reviewing the description of the opportunities.
