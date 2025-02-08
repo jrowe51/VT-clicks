@@ -1,10 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[ ]:
-
-
-#Varsity Tutors Instant Tutoring Bot
+#Varsity Tutors Instant Tutoring Automated Click Routine
 
 
 # In[1]:
@@ -244,19 +239,6 @@ while True:
     num_rows = num_rows2
 
 
-# In[27]:
-
-
-iframes = d.find_elements(By.TAG_NAME, "iframe")
-
-
-# In[37]:
-
-
-print(len(iframes))
-
-
-# In[ ]:
 
 
 
