@@ -138,9 +138,9 @@ except (NoSuchElementException ) as e :
 
 
 
-time.sleep(3)
+time.sleep(10)
 d.find_element(By.XPATH, '//*[@id="tutor-account-app"]/nav/ul[1]/li[3]/a').click()
-time.sleep(5)
+time.sleep(10)
 
 try :
     iframe = d.find_element(By.XPATH, '//*[@id="vt-scheduling-ui-availability"]')
