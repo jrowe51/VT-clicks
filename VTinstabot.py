@@ -197,7 +197,7 @@ while True:
                 if (good_stuff['instant']==True):
                     buttonname = '//*[@id="opportunity_' + opp_id + '"]/td[8]/a'
                     opp_button = WebDriverWait(d, 10, poll_frequency = 0.01).until(EC.presence_of_element_located((By.XPATH, buttonname)))
-                                        print("You clicked on a new opportunity at " + now.time())
+                    print("You clicked on a new opportunity at " + now.time())
 
                     try :
                         opp_button.click()
